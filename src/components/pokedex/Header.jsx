@@ -5,8 +5,8 @@ const Header = () => {
     <section>
           <div className='relative grid grid-cols-[1_fr_auto] '>
       <div className='h-16 md:h-16 bg-red-700 grid items-end' >
-        <div className="ms-3 max-w-[200px] sm:max-w-[300px] ">
-          <img src="./images/pokedex-logo.png" alt="" />
+        <div className="ms-3 max-w-[200px] sm:max-w-[300px] z-50">
+          <img className='' src="./images/xxxxx.png" alt="" />
         </div>
       </div>
       <div className='h-12 bg-black' ></div>

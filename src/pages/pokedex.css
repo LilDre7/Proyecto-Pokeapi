@@ -1,0 +1,44 @@
+.your-page {
+  background-image: url(./images/images-footer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+}
+
+.pages_all {
+  border: 3px solid rgba(0, 0, 0, 0.527);
+  cursor: pointer;
+  border: 2px solid rgba(255, 0, 0, 1);
+  animation: cambia-color 5s infinite;
+  border-radius: 8px;
+}
+
+@keyframes cambia-color {
+  0% {
+    border-color: rgba(255, 0, 0, 1);
+  }
+  50% {
+    border-color: rgba(0, 255, 0, 1);
+  }
+  100% {
+    border-color: rgba(0, 0, 255, 1); 
+  }
+}
+
+.numbers_pages {
+  border-radius: 8px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+@media (min-width:600px) {
+  .numbers_pages {
+    padding: 10px;
+  }
+  .pages_all {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,21 @@
+img:hover {
+  image-rendering: pixelated;
+  transition-duration: 100ms;
+}
+
+.carta__padre  {
+  border: 2px solid rgb(189, 184, 184);
+  animation: cambia-color 5s infinite;
+}
+
+@keyframes cambia-color {
+  0% {
+    border-color: rgba(255, 0, 0, 0.673);
+  }
+  50% {
+    border-color: rgba(0, 255, 0, 0.165);
+  }
+  100% {
+    border-color: rgba(0, 0, 255, 0.215); 
+  }
+}

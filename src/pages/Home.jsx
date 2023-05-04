@@ -18,7 +18,7 @@ const Home = () => {
     <section className=" min-h-screen grid grid-rows-[1fr_auto]">
       <article className="flex justify-center flex-wrap items-center flex-col gap-5">
         <div>
-          <img className="w-[300px]" src="./images/pokedex-logo.png" alt="" />
+          <img className="w-[300px]" src="./images/xxxxx.png" alt="" />
         </div>
         <h2 className="text-center"> ¡Bienvenidos a la Pokedex, entrenadores Pokemon!<br />Registrate para ver tu pokedex</h2>
         <p className="sm:max-w-[800px] text-center m-4  " >

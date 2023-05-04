@@ -77,7 +77,7 @@ const PokemonCart = ({ pokemonUrl }) => {
   // ************************* //
   return (
     <div
-      className={`carta__padre relative w-full flex justify-center items-center bg-white shadow-sm shadow-black/40 rounded-xl pt-14 mb-8 border-2 sm:bg-black/10 sm:max-w-[250px] sm:min-w-[250px] sm:h-[180px] hover:scale-105 hover:focus:scale-105 transition-all duration-300 ease-in-out max-w-[1200px] `}
+      className={`carta__padre relative w-full flex justify-center items-center bg-white shadow-sm shadow-black/20 rounded-xl pt-14 mb-8 border-2 sm:bg-black/5 sm:max-w-[250px] sm:min-w-[250px] sm:h-[180px] hover:scale-105 hover:focus:scale-105 transition-all duration-300 ease-in-out max-w-[1200px] `}
     >
       <button className="" onClick={openModal}>
         <div>
@@ -94,7 +94,7 @@ const PokemonCart = ({ pokemonUrl }) => {
           <h2 className="text-xl font-semibold capitalize">{pokemon?.name}</h2>
           <div className="">
             <h3
-              className={`capitalize mt-2 text-[14px] border-4 bg-black/10 font-semibold p-[3px] rounded-lg ${
+              className={`capitalize mt-2 text-[14px] border-2 bg-black/5 font-semibold p-[3px] rounded-lg ${
                 borderByType[pokemon?.types[0].type.name]
               }
             ${backgroundByType[pokemon?.types[0].type.name]}`}
